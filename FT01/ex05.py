@@ -8,4 +8,4 @@ cateto_b = float(input("Digite o valor do cateto B: "))
 # Calculando a hipotenusa
 hipotenusa = math.sqrt(cateto_a ** 2 + cateto_b ** 2) 
 # Mostrando o resultado
-print("O valor da hipotenusa é: ", hipotenusa)  #
+print("O valor da hipotenusa é: ", hipotenusa)  
