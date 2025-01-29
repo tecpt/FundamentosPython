@@ -1,0 +1,2 @@
+'''Escreva um programa que solicite ao utilizador dois números inteiros a operação matemática a ser realizada (+,-,* e /). 
+Utilize a estrutura match...case para executar a operação escolhida e devolver o resultado'''
