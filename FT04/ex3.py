@@ -1,9 +1,25 @@
 
+'''Fazer um programa para ler quatro números inteiros e positivos, calcular e devolver  a  sua 
+média. - usando o ciclo while'''
 
+x =0
 soma = 0
-for i in range(1,5):
-    numero =int(input("Introduza número inteiro positivo:"))
-    soma = soma + numero
-   
+while x < 4:
+    num = int(input("Digite um número: "))
+    soma += num
+    x += 1
 
-print("soma = ", soma)
+media = soma / 4
+print(media)
+
+'''Fazer um programa para ler quatro números inteiros e positivos, calcular e devolver  a  sua 
+média usando o ciclo for'''
+
+soma2=0
+for x in range(5):
+    num = int(input("Digite um número: "))
+    soma2 += num # soma2 = soma2 + num
+    
+media2 = soma2 / 4
+print(media2)
+    

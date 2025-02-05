@@ -1,10 +1,4 @@
-i = 1 #contador
-soma = 0 #acumulador
+'''Escreve um programa para escrever no ecrã a palavra olá 100 vezes'''
 
-valor = int(input("Enter any positive integer: "))
-
-while i <= valor:
-    soma += i
-    i += 1
-    
-print(f'Sum of all numbers till {valor} is ', soma)
+for i in range(100):
+    print(f"{i+1} - Olá")
